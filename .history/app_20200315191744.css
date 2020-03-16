@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat",sans-serif;
+  }
+  .contact-section{
+    background: #001f3f;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .inner-width{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .contact-section h1{
+    font-size: 20px;
+    color: #FFF;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+  
+  .name,.email,.message{
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid;
+    color: #FFF;
+    padding: 10px 6px;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  
+  .name{
+    float: center;
+    width: 540px;
+  }
+
+  .contact-section button{
+      outline: none;
+    background: none;
+    color: #70a1ff;
+    border: 1px solid #70a1ff;
+    padding: 12px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.4s linear;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover{
+    background: #70a1ff;
+    color: #fff;
+  }
+
+  .ending-section{
+      z-index: 10;
+      bottom: 0;
+      position: absolute;
+    background: #001f3f;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  
+  @media screen and (max-width:600px){
+    .name,.email{
+      width: 100%;
+    }
+  }
+
+#canvas-container{
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    background: #FFF;
+}
+
+canvas{
+    border: 1px solid lightgray;
+}
