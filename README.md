@@ -1,5 +1,5 @@
 # expression-tree-gen
-Building an expression tree of an arithmetic expression is something quite useful and it is done by our compilers to generate machine code.
+Building an expression tree of an arithmetic expression is something quite useful and it is one of the steps a compilers must take to generate machine code.
 
 With that in mind, and inspired on my lectures on the tree data structure I decided to create a web app that simulates the creation of such a tree given an expression.
 
