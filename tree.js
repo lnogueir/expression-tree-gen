@@ -45,7 +45,7 @@ function drawEdgeAnimated(origin_x, origin_y, destine_x, destine_y, ctx, resolve
         var pt1 = vertices[i];
         var dx = pt1.x - pt0.x;
         var dy = pt1.y - pt0.y;
-        for (var j = 0; j < N; j++) {
+        for (var j = 0; j <= N; j++) {
             var x = pt0.x + dx * j / N;
             var y = pt0.y + dy * j / N;
             waypoints.push({ x: x, y: y });
@@ -136,6 +136,7 @@ function setCoordinates(root) {
     setCoordinates(root, 0)
 }
 
+// must be async in order to await till animation is done
 async function drawTree(root, context) {
     if (null != root) {
         root.draw(context)
