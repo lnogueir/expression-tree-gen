@@ -26,12 +26,12 @@ function Node(value) {
         context.arc(this.x, this.y, radius, 0, Math.PI * 2, false)
         context.fillStyle = 'white'
         context.fill()
-        context.strokeStyle = 'black'
+        context.strokeStyle = '#212121'
         context.stroke()
         context.font = '25px Times New Roman'
         context.textAlign = 'center'
         context.textBaseline = 'middle'
-        context.fillStyle = "black";
+        context.fillStyle = "#212121";
         context.fillText(this.value, this.x, this.y);
     }
 }
@@ -128,7 +128,7 @@ function setCoordinates(root) {
         if (null != subt) {
             setCoordinates(subt.left, depth + 1)
             subt.x = canvas_mid_point + (OFFSET * (i - size / 2))
-            subt.y = OFFSET + (depth * 1.5 * OFFSET)
+            subt.y = 1.75 * OFFSET + (depth * 1.5 * OFFSET)
             i++
             setCoordinates(subt.right, depth + 1)
         }
