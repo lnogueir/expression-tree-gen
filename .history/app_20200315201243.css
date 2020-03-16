@@ -103,11 +103,6 @@
     width: 75%;
   }
 
-  .end-2-text p a{
- text-decoration: none;
- color: #FFF;  
-}
-
   .end-1{
       flex: 1;
   }
@@ -157,7 +152,6 @@
     width: 100vw;
     max-width: 100vw;
     background: #FFF;
-    overflow-y: scroll;
 }
 
 canvas{

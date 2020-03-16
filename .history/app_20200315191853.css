@@ -5,9 +5,8 @@
     font-family: "montserrat",sans-serif;
   }
   .contact-section{
-    background: url(./maths1.png);
-    background-size: cover;
-    padding: 60px 0 40px 0;
+    background: #001f3f;
+    padding: 80px 0;
     text-align: center;
   }
   
@@ -42,15 +41,7 @@
     width: 540px;
   }
 
-  .buttons{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-
   .contact-section button{
-      margin-bottom: 20px;
       outline: none;
     background: none;
     color: #70a1ff;
@@ -71,74 +62,12 @@
   .ending-section{
       z-index: 10;
       bottom: 0;
-      position: relative;
+      position: absolute;
     background: #001f3f;
     padding: 80px 0;
     text-align: center;
   }
-
-  .end-row{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      margin: auto;
-      color: white;
-  }
-
-  .end-1-text{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-
-  .end-1-text h4{
-    font-weight: 400;
-    padding: 0 0 .25rem 0;
-  }
-
-  .end-1-text p{
-      font-size: 10px;
-    width: 75%;
-  }
-
-  .end-2-text p a{
- text-decoration: none;
- color: #FFF;  
-}
-
-  .end-1{
-      flex: 1;
-  }
-
-  .end-2-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.end-2-text h4{
-  padding: 0 0 .25rem 0;
-  font-weight: 400;
-}
-
-.end-2-text p{
-    font-size: 10px;
-  width: 75%;
-}
-
-.end-2{
-    flex: 1;
-}
   
-  @media screen and (max-width:700px){
-    .contact-section{
-        background: #001f3f;
-    }
-  }
-
   
   @media screen and (max-width:600px){
     .name,.email{
@@ -153,11 +82,9 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    height: 80vh;
-    width: 100vw;
-    max-width: 100vw;
+    height: 50vh;
+    width: 10vw;
     background: #FFF;
-    overflow-y: scroll;
 }
 
 canvas{

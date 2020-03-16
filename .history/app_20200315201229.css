@@ -94,7 +94,6 @@
   }
 
   .end-1-text h4{
-    font-weight: 400;
     padding: 0 0 .25rem 0;
   }
 
@@ -102,11 +101,6 @@
       font-size: 10px;
     width: 75%;
   }
-
-  .end-2-text p a{
- text-decoration: none;
- color: #FFF;  
-}
 
   .end-1{
       flex: 1;
@@ -157,7 +151,6 @@
     width: 100vw;
     max-width: 100vw;
     background: #FFF;
-    overflow-y: scroll;
 }
 
 canvas{
