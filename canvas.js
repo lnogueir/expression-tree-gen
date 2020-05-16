@@ -2,7 +2,7 @@
 
 
 (function () {
-    const EXPRESSIONS = [
+    const SAMPLE_EXPRESSIONS = [
         '(a + b)*c - (x - y)/z',
         '(a * b) - c + z / x',
         'x - y + (c / (a + b))',
@@ -45,7 +45,7 @@
         clearCanvas()
     })
 
-    document.getElementById('expression-input').value = EXPRESSIONS[Math.floor(Math.random() * EXPRESSIONS.length)]
+    document.getElementById('expression-input').value = SAMPLE_EXPRESSIONS[Math.floor(Math.random() * SAMPLE_EXPRESSIONS.length)]
     setTimeout(() => {
         document.getElementById('generate-tree').click()
     }, 500)
