@@ -7,7 +7,6 @@ Visit this [website](https://lnogueir.github.io/expression-tree-gen/) to simulat
 
 ## Credits:
 
-* My friend [Aasir](https://github.com/avxlji) who helped me with the UI design of the app.
 * This [article](https://llimllib.github.io/pymag-trees/) which helped me a lot introducing me to Knuth's algorithm for the layout of the tree.
 * This [article](http://ice-web.cc.gatech.edu/ce21/1/static/audio/static/pythonds/BasicDS/InfixPrefixandPostfixExpressions.html) which introduced me to Dijkstra's Shunting-yard algorithm.
 * The [mycodeschool](https://www.youtube.com/user/mycodeschool) youtube channel with great videos explaning the algorithms said above.
