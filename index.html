@@ -3,41 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Expression Tree Generator</title>
     <!--start favicon meta deta-->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <meta name="theme-color" content="#ffffff">
+    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+    <meta content="#ffffff" name="theme-color">
     <!--end favicon metadata-->
 
-    <link rel="stylesheet" href="app.css">
+    <link href="app.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="contact-section">
-        <div class="inner-width">
-            <h1>Expression Tree Generator</h1>
-            <div class="inner-input-container" style="text-align: left;">
-                <span>Current Expression:</span>
-                <input type="text" class="name" id='expression-input' placeholder="e.g (x + y)*z - (t / w)">
-            </div>
-
-            <div class="buttons">
-                <button id="generate-tree">Generate</button>
-                <button id="clear-tree">Clear</button>
-            </div>
-
+<div class="contact-section">
+    <div class="inner-width">
+        <h1>Expression Tree Generator</h1>
+        <div class="inner-input-container" style="text-align: left;">
+            <span>Current Expression:</span>
+            <input class="name" id='expression-input' placeholder="e.g (x + y)*z - (t / w)" type="text">
         </div>
-    </div>
 
-    <div id="canvas-container">
-        <canvas></canvas>
-    </div>
+        <div class="buttons">
+            <button id="generate-tree">Generate</button>
+            <button id="clear-tree">Clear</button>
+        </div>
 
-    <a class="github-link" href="https://github.com/lnogueir/expression-tree-gen">
-        <img src="GitHub_Logo.png" />
-    </a>
+    </div>
+</div>
+
+<div id="canvas-container">
+    <canvas></canvas>
+</div>
+
+<a class="github-link" href="https://github.com/lnogueir/expression-tree-gen">
+    <img src="GitHub_Logo.png" alt="GitHub_Logo"/>
+</a>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
